@@ -1,3 +1,13 @@
+# build output
+bin/
 *.exe
 *.out
-/golang-hw/bin/
+*.test
+
+# secrets
+.env
+
+# editor and OS clutter
+*.swp
+.vscode/
+.DS_Store
